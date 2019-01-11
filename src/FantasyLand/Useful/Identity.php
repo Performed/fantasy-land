@@ -29,7 +29,7 @@ class Identity implements FantasyLand\Monad
     }
 
     /**
-     * @inheritdocus
+     * @inheritdoc
      */
     public function map(callable $transformation): FantasyLand\Functor
     {
